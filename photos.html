@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abhishek</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/photos.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+<div id="whole" class="whole">
+            <nav class="navy">
+                <div class="toggle-button" onclick="togglenav()"><img src="images/Site/arc.png"></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#profile-whole">Profile</a></li>
+                </ul>
+              <div class="sign-div">
+                <a href="index.html"><img class="sign" src="images/Site/sign.png"></a>
+              </div>
+            </nav>
+           <aside class="sidebar">
+               <ul>
+                   <li class="more">More</li>
+                   <li><div class="avengers-button" onclick="dropdownavengers()">My Avengers</div>
+                     <ul class="ff">
+                         <li><a href="#whole">Family</a></li>
+                         <li><a href="#friends-whole">Friends</a></li>
+                     </ul>
+                   </li>
+                   <li><a href="travel.html">Travel</a></li>
+                   <li><a href="resume.html">Resume</a></li>
+               </ul>
+           </aside>
+    <div class="family">
+        <h1>People who call me crazy!</h1>
+        <h2>My family.</h2>
+        <div class="hidebox">
+        <p class="photos-hide">I come from a family in Bihar. Nobody comes in this world, without the support of family and friends. Actually, whatever you will be, it is just because of your family. My father is an engineer and my mother is a housewife. They both are happy with what they're doing. They also enjoy scolding me for no reason. I have a sister. She's the elder one and she takes all the advantage of it. Makes me do all her work. Thankfully she got married in 2019 and now she's settled in Hyderabad.</p>
+        </div>
+        <div class="gallery">
+            <a href="images/family/1.png" data-lightbox="images"><img src="images/family/1-small.png"></a>
+            <a href="images/family/2.png" data-lightbox="images"><img src="images/family/2-small.png"></a>
+            <a href="images/family/3.png" data-lightbox="images"><img src="images/family/3-small.png"></a>
+            <a href="images/family/4.png" data-lightbox="images"><img src="images/family/4-small.png"></a>
+        </div>
+        <div class="button">
+        <a class="family-link" href="#friends-whole"><button type="button">Click here to pay a visit to<br>my friends!</button></a>
+        </div>
+    </div>
+</div>
+<div id="friends-whole" class="friends-whole">
+    <div class="friends">
+        <h1>The real crazies!</h1>
+        <h2>My homies.</h2>
+        <div class="hidebox">
+        <p class="photos-hide">Life of a human being is full of ups and downs.  So, on each stage of life, everyone needs someone who can understand and support with no expectation. Those special people are called friends. And these are some of the pictures of the people I can always rely on with my eyes closed. They have been with me through all my ups and downs and now they have become a very important part of my life. They are no less than a family to me now.</p>
+        </div>
+        <div class="gallery">
+            <a href="images/friends/1.png" data-lightbox="img"><img src="images/friends/1-small.png"></a>
+            <a href="images/friends/2.png" data-lightbox="img"><img src="images/friends/2-small.png"></a>
+            <a href="images/friends/3.png" data-lightbox="img"><img src="images/friends/3-small.png"></a>
+            <a href="images/friends/4.png" data-lightbox="img"><img src="images/friends/4-small.png"></a>
+        </div>
+      <div class="button">
+        <a class="family-link" href="#whole"><button type="button">Want to see my family?<br>Click Here</button></a>
+        <a class="family-link" href="travel.html"><button type="button">Want to see the places I've visited? Click Here</button></a>
+      </div>
+    </div>
+</div>
+</body>
+<script src="js/main.js"></script>
+</html>
