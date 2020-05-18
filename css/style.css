@@ -222,7 +222,7 @@ body{
 }
 .index-content h1{
     color: white;
-    font-size: 5vh;
+    font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 80px;
@@ -231,7 +231,7 @@ body{
 }
 .index-content h2{
     color: white;
-    font-size: 4vh;
+    font-size: 25px;
     text-align: center;
     padding-top: 11px;
     padding-bottom: 20px;
@@ -240,7 +240,7 @@ body{
 }
 .index-content p{
     color: white;
-    font-size: 3vh;
+    font-size: 20px;
     text-align: center;
     padding-top: 30px;
     text-shadow: 0 0 10px black;
