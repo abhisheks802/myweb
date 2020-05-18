@@ -1,0 +1,64 @@
+.resume-gallery{
+    text-align: center;
+    padding-top: 15px;
+}
+.resume-gallery img{
+    width:130px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.resume-gallery img:hover {
+    opacity: 0.7;
+}
+.whole{
+    background: #2f2f2f url("../images/Site/thor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: multiply;
+}
+.resume{
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.resume h1{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 500;
+}
+.resume h2{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 11px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+@media only screen and (min-width: 1000px){
+    .resume h1{
+        font-size: 5vh;
+        text-align: center;
+    }
+    .resume h2{
+        font-size: 4vh;
+        padding-top: 11px;
+        padding-bottom: 35px;
+    }
+    .resume-gallery img{
+        width:170px;
+        height: 250px;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+}

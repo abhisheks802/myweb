@@ -1,0 +1,165 @@
+.gallery{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.gallery img{
+    width:130px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.gallery img:hover{
+    opacity: 0.7;
+}
+.whole{
+    background: #4b4b4b url("../images/Site/avengers1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: multiply;
+    overflow: hidden;
+}
+.family{
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.family h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 80px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 500;
+}
+.family h2{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 11px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 400;
+}
+.photos-hide{
+    visibility: hidden;
+    overflow: hidden;
+}
+.hidebox{
+    visibility: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.family-link {
+    text-align: center;
+    line-height: 27px;
+    margin: 27px auto 0 auto;
+    display: block;
+}
+.family-link button{
+    font-size: 19px;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    width: 250px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+.friends-whole{
+    background: #4b4b4b url("../images/Site/avengers2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: multiply;
+    overflow: hidden;
+}
+.friends{
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 26px;
+}
+.friends h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 80px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 500;
+}
+.friends h2{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 11px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 1000px){
+    .gallery{
+        text-align: center;
+        overflow: hidden;
+        height: 100vh;
+        width: 500px;
+        margin: -375px auto 0 auto;
+        padding-right: 700px;
+    }
+    .gallery img{
+        width:210px;
+        height: 160px;
+    }
+    .gallery img:hover{
+        opacity: 0.7;
+    }
+    .family h1{
+        font-size: 5vh;
+        text-align: center;
+        padding-left: 500px;
+    }
+    .family h2{
+        font-size: 4vh;
+        padding-top: 11px;
+        margin-left: 500px;
+        padding-bottom: 35px;
+    }
+    .family-link {
+        line-height: 27px;
+    }
+    .button{
+        text-align: center;
+        margin-top: -400px;
+        margin-left: 500px;
+    }
+    .friends h1{
+        font-size: 5vh;
+        text-align: center;
+        padding-left: 500px;
+    }
+    .friends h2{
+        font-size: 4vh;
+        padding-top: 11px;
+        padding-left: 500px;
+        padding-bottom: 50px;
+    }
+    .hidebox{
+        width: 600px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 500px;
+        white-space: normal;
+    }
+    .photos-hide{
+        font-size: 22px;
+        line-height: 30px;
+        visibility: visible;
+        color: white;
+    }
+}
