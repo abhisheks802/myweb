@@ -180,6 +180,7 @@ body{
     z-index: 1000;
     transition: all 0.3s ease-in-out;
     border-radius: 6px;
+    overflow: hidden;
 }
 .sidebar ul{
     padding-top: 20px;
