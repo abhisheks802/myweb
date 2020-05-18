@@ -1,2 +1,2 @@
 # myweb
-This website
+This website is about me.
