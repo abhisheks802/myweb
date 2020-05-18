@@ -114,6 +114,7 @@ body{
     height: 60px;
     background: rgba(0,0,0,0.1);
     position: fixed;
+    z-index: 1000;
 }
 .toggle-button{
     width: 60px;
@@ -177,7 +178,7 @@ body{
     left:0;
     bottom: 0;
     padding:0 5px;
-    z-index: 1000;
+    z-index: 1;
     transition: all 0.3s ease-in-out;
     border-radius: 6px;
     overflow: hidden;
