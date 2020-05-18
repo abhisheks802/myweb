@@ -113,8 +113,10 @@ body{
     display: flex;
     height: 60px;
     background: rgba(0,0,0,0.1);
+    position: -ms-device-fixed;
     position: fixed;
     z-index: 1000;
+    overflow: hidden;
 }
 .toggle-button{
     width: 60px;
@@ -174,6 +176,7 @@ body{
     width: 0;
     background: rgba(0,0,0,0.0);
     height: calc(100vh - 60px);
+    position: -ms-device-fixed;
     position: fixed;
     left:0;
     bottom: 0;
