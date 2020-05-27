@@ -141,6 +141,7 @@ body{
 .more{
     color: #545454;
     font-size: 21px;
+    padding-top: 20px;
 }
 .navy ul li a{
     text-decoration: none;
@@ -186,7 +187,7 @@ body{
     overflow: hidden;
 }
 .sidebar ul{
-    padding-top: 30px;
+    padding-top: 20px;
     overflow: hidden;
     white-space: nowrap;
     visibility: hidden;
