@@ -141,16 +141,15 @@ body{
 .more{
     color: #545454;
     font-size: 21px;
-    padding-top: 12px;
-}
-.navy ul li a:hover{
-    font-size: 21px;
-    display: block;
 }
 .navy ul li a{
     text-decoration: none;
-    font-size: 19px;
+    font-size: 3vh;
     color: white;
+}
+.navy ul li a:hover{
+    font-size: 3.3vh;
+    display: block;
 }
 .sign-div{
     margin-left: auto;
@@ -179,7 +178,6 @@ body{
     height: calc(100vh - 60px);
     position: -ms-device-fixed;
     position: fixed;
-    left:0;
     bottom: 0;
     padding:0 5px;
     z-index: 1;
@@ -188,7 +186,7 @@ body{
     overflow: hidden;
 }
 .sidebar ul{
-    padding-top: 22px;
+    padding-top: 20px;
     overflow: hidden;
     white-space: nowrap;
     visibility: hidden;
@@ -228,7 +226,7 @@ body{
 }
 .index-content h1{
     color: white;
-    font-size: 30px;
+    font-size: 5vh;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 80px;
@@ -237,23 +235,22 @@ body{
 }
 .index-content h2{
     color: white;
-    font-size: 25px;
+    font-size: 4vh;
     text-align: center;
     padding-top: 11px;
-    padding-bottom: 20px;
     text-shadow: 0 0 10px black;
     font-weight: 400;
 }
 .index-content p{
     color: white;
-    font-size: 20px;
+    font-size: 3.1vh;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5vh;
     text-shadow: 0 0 10px black;
     font-weight: 300;
     padding-left: 10px;
     padding-right: 5px;
-    line-height: 30px;
+    line-height: 4.2vh;
     margin: 0 auto;
 }
 .profile-whole{
@@ -272,7 +269,7 @@ body{
 }
 .myprofile h1{
     color: white;
-    font-size: 26px;
+    font-size: 5vh;
     text-align: center;
     padding-bottom: 23px;
     padding-top: 14px;
@@ -281,7 +278,7 @@ body{
 }
 .myprofile h2{
     color: white;
-    font-size: 23px;
+    font-size: 4vh;
     text-align: center;
     padding-bottom: 14px;
     text-shadow: 2px 2px 8px black;
@@ -303,15 +300,13 @@ body{
 .myprofile p{
     color: white;
     text-align: center;
-    line-height: 30px;
+    line-height: 4.2vh;
     padding-top: 30px;
     text-shadow: 2px 2px 8px black;
-    font-size: 18px;
+    font-size: 3vh;
 }
 .hide{
-    font-size: 5px;
-    overflow: hidden;
-    visibility: hidden;
+    display: none;
 }
 
 @media only screen and (min-width: 1000px){
@@ -333,12 +328,6 @@ body{
     .navy ul li{
         padding-left: 50px;
         padding-top: 30px;
-    }
-    .navy ul li a:hover{
-        font-size: 25px;
-    }
-    .navy ul li a{
-        font-size: 3vh;
     }
     .sign-div img{
         width: 85px;
@@ -433,10 +422,9 @@ body{
         text-align: center;
         line-height: 30px;
         padding-top: 30px;
-        font-size: 20px;
     }
     .hide{
-        visibility: visible;
+        display: block;
         margin-top: -30px;
     }
 }
