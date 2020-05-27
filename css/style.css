@@ -186,7 +186,7 @@ body{
     overflow: hidden;
 }
 .sidebar ul{
-    padding-top: 20px;
+    padding-top: 30px;
     overflow: hidden;
     white-space: nowrap;
     visibility: hidden;
